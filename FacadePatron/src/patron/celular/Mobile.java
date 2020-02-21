@@ -1,5 +1,9 @@
 package patron.celular;
 
+/**
+ *
+ * @author Facade Team
+ */
 import java.util.List;
 
 public class Mobile {
@@ -8,6 +12,7 @@ public class Mobile {
     private final CPU cpu;
     private final List<IMobileService> mobileServices;
     private final List<IMobileSensor> mobileSensors;
+    
 
     public Mobile(Battery battery, CPU cpu, List<IMobileService> mobileServices, List<IMobileSensor> mobileSensors) {
         this.battery = battery;

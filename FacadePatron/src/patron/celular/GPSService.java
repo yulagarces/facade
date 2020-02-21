@@ -1,5 +1,9 @@
 package patron.celular;
 
+/**
+ *
+ * @author Facade Team
+ */
 public class GPSService implements IMobileService {
 
     @Override

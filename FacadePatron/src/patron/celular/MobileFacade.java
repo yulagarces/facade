@@ -3,6 +3,10 @@ package patron.celular;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ *
+ * @author Facade Team
+ */
 public class MobileFacade {
 
     public Mobile on() {
@@ -50,7 +54,17 @@ public class MobileFacade {
             System.out.println("Accelerometer sensor doesn´t exists");
         }
 
-        List<IMobileSensor> sensors = Arrays.asList(temp, light, accelerometer);
+         IMobileSensor sensorNuevo = new SensorNuevo();
+        
+         if(sensorNuevo.exists()){
+            sensorNuevo.start();
+             System.out.println(""+sensorNuevo.value());
+        }
+        else{
+            System.out.println("sensorNuevo sensor doesn´t exists");
+        }
+         
+        List<IMobileSensor> sensors = Arrays.asList(temp, light, accelerometer,sensorNuevo);
         Mobile mobile = new Mobile(battery, cpu, mobileServices, sensors);
 
         return mobile;
