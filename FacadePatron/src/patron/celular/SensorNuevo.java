@@ -7,30 +7,30 @@ package patron.celular;
 
 /**
  *
- * @author YULI GARCES
+ * @author Team Facade
  */
-public class SensorNuevo implements IMobileSensor{
+public class SensorNuevo implements ISensorMovil{
 
     @Override
-    public boolean exists() {
+    public boolean existe() {
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         return true;
     }
 
     @Override
-    public String value() {
+    public String valor() {
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         return "Valor del sensor nuevo";
     }
 
     @Override
-    public void start() {
+    public void iniciar() {
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         System.out.println("Encendido el sensor nuevo");
     }
 
     @Override
-    public void stop() {
+    public void detener() {
        // throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         System.out.println("Detenido el sensor nuevo");
     }

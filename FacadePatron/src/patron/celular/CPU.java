@@ -6,11 +6,11 @@ package patron.celular;
  */
 public class CPU {
 
-    public void bootLoad() {
-        System.out.println("CPU boot loaded");
+    public void iniciar() {
+        System.out.println("CPU iniciada");
     }
 
-    public void shutDown() {
-        System.out.println("CPU shutdown");
+    public void apagar() {
+        System.out.println("CPU apagada");
     }
 }
