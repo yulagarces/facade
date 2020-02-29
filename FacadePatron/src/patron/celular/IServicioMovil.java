@@ -6,7 +6,7 @@ package patron.celular;
  */
 public interface IServicioMovil {
 
-    void arrancar();
+    public void arrancar();
 
-    void terminar();
+    public void terminar();
 }

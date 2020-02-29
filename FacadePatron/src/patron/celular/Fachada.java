@@ -51,9 +51,10 @@ public class Fachada {
             System.out.println("El sensor acelerómetro no existe");
         }
 
-        ISensorMovil sensorNuevo = new SensorNuevo();
+       ISensorMovil sensorNuevo = new SensorNuevo();
 
-        if (sensorNuevo.existe()) {
+       if (sensorNuevo.existe()) {
+            //sensorNuevo.iniciar();
             sensorNuevo.detener();
             System.out.println(sensorNuevo.valor());
         } else {
@@ -61,6 +62,7 @@ public class Fachada {
         }
 
         List<ISensorMovil> sensores = Arrays.asList(temp, luz, acelerometro, sensorNuevo);
+     //   sensores.add(sensorNuevo);
         DispositivoMovil dispositivo = new DispositivoMovil(bateria, cpu, servicios, sensores);
 
         return dispositivo;

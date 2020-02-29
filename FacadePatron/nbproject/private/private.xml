@@ -3,7 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/Ligths.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/ServicioWIFI.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/CPU.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/DispositivoMovil.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/SensorNuevo.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/IServicioMovil.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/SensorDeLuz.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/Bateria.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/SensorDeTemperatura.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/Fachada.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/SensorAcelerometro.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/celular/ISensorMovil.java</file>
+            <file>file:/D:/GitHub/facade/FacadePatron/src/patron/cliente/Cliente.java</file>
         </group>
     </open-files>
 </project-private>

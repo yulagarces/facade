@@ -8,10 +8,10 @@ import java.util.List;
 
 public class DispositivoMovil {
 
-    private final Bateria bateria;
-    private final CPU cpu;
-    private final List<IServicioMovil> servicios;
-    private final List<ISensorMovil> sensores;
+    private Bateria bateria;
+    private CPU cpu;
+    private List<IServicioMovil> servicios;
+    private List<ISensorMovil> sensores;
     
 
     public DispositivoMovil(Bateria bateria, CPU cpu, List<IServicioMovil> servicios, List<ISensorMovil> sensores) {
