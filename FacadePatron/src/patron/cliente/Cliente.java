@@ -10,7 +10,7 @@ public class Cliente {
         Fachada fachada = new Fachada();
         DispositivoMovil dispositivo = fachada.encender();
         System.out.println();
-        System.out.println("--------------- APAGAR ---------------\n");
+        System.out.println("El dispositivo se está apagando\n");
         fachada.apagar(dispositivo);
     }
 }
